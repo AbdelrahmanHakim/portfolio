@@ -149,8 +149,14 @@ hr{
   hr{
     width: 20px;
   }
+  body{
+    background-image: url("batman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   #button{
-    position: relative;
-    margin-right: 30%;
+
+    margin-right: 26%;
   }
 }

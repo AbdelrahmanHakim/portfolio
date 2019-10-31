@@ -18,15 +18,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- font awesome  -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <!-- batman background image -->
 
 <body>
-
-  <div class="intro" style="text-align:center;">
+<a id="button"></a>
+  <div class="intro"  style="text-align:center;">
 
     <div class="intro2">
       <h1 style="color: white; font-size:3rem;">Abdelrahman Abdelhakim</h1>
@@ -36,28 +36,37 @@
       </strong>
     </div>
   </div>
-  <div class="">
-    <nav class="navbar navbar-dark bg-dark justify-content-center fixed-top">
-      <ul class="nav ">
-    <li class="nav-item">
-      <a class="nav-link active" href="#profile">Profile</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#experience">Experince</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#abilities">Abilities</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " href="#projects">Projects</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " href="#contact">Contact</a>
-    </li>
-  </ul>
-    </nav>
 
-  </div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="d-flex w-50 order-0">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link scroll" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link scroll" href="#experience">Experince</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link scroll" href="#abilities">Abilities</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link scroll" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link scroll" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span>
+</nav>
+
+
   <!-- Profile section -->
   <div class="Profile" id="profile">
 

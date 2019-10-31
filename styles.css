@@ -150,6 +150,7 @@ hr{
     width: 20px;
   }
   #button{
+    position: relative;
     margin-right: 30%;
   }
 }

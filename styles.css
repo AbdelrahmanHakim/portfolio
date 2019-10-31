@@ -150,10 +150,7 @@ hr{
     width: 15px;
   }
   body{
-    background-image: url("batman.jpg");
-    background-size: 760px;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: display:none;
   }
   #button{
 

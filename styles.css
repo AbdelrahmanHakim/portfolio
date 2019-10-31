@@ -151,7 +151,7 @@ hr{
   }
   body{
     background-image: url("batman.jpg");
-    background-size: cover;
+    background-size: 760px;
     background-repeat: no-repeat;
     background-position: center;
   }

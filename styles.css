@@ -148,7 +148,7 @@ hr{
   /* For mobile phones: */
 
   hr{
-    width: 300px;
+    display: none;
   }
   #button{
 

@@ -21,7 +21,6 @@ $(document).ready(function() {
         $(this).parent().siblings().removeClass('active');
       }
     })
-
   })
   var btn = $('#button');
 
